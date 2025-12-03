@@ -1,0 +1,13 @@
+{
+    "asset": "c80896f72f1e1eb4298eeb3a7b8ce8c4",
+    "fileName": "019a16a5-bc53-7465-8fac-50f12ec5d9fe.wav",
+    "prompt": "Sound of a rocket engine running",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "cf5409b812622b630c99c8209c85cb3a",
+    "duration": 5.0,
+    "autoTrim": true,
+    "hasReference": false
+}
