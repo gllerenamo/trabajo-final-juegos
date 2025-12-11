@@ -4,8 +4,11 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - ColisionSegura
-  - ColisionPeligrosa
+  - StartPlatform
+  - Obstacle
+  - Fuel
+  - LandingPlatform
+  - Booster
   layers:
   - Default
   - TransparentFX
