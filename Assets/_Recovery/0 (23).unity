@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd7f6c4fade823f49832c28faa95d476, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoosterZone
-  boostDirection: {x: 1, y: 0, z: 0}
+  boostDirection: {x: 1, y: 0.5, z: 0}
   boostForce: 700
   glowColor: {r: 0, g: 1, b: 1, a: 1}
   pulseSpeed: 2
@@ -242,7 +242,7 @@ Transform:
   m_GameObject: {fileID: 71104047}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25, y: 0, z: 0}
+  m_LocalPosition: {x: 25, y: 2, z: 0}
   m_LocalScale: {x: 2, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -757,7 +757,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2, z: 1}
+  m_Size: {x: 6, y: 1, z: 6}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &196620698
 GameObject:
@@ -6908,7 +6908,7 @@ Transform:
   m_GameObject: {fileID: 518792363}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25, y: 5.5, z: 0}
+  m_LocalPosition: {x: 25, y: 4, z: 0}
   m_LocalScale: {x: 8, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12006,7 +12006,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -30}
   m_SizeDelta: {x: 600, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &606546986
@@ -22677,8 +22677,8 @@ MonoBehaviour:
   brightnessVariation: 0.5
   twinkleSpeed: 2
   animateTwinkling: 1
-  horizontalRange: 180
-  verticalRange: 50
+  horizontalRange: 120
+  verticalRange: 40
   centerPosition: {x: 0, y: 0}
   useColorVariation: 1
   blueStarTint: {r: 0.7, g: 0.8, b: 1, a: 1}
@@ -34811,8 +34811,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -90}
-  m_SizeDelta: {x: 600, y: 110}
+  m_AnchoredPosition: {x: 0, y: -70}
+  m_SizeDelta: {x: 500, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1142736683
 MonoBehaviour:
@@ -35067,8 +35067,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 150}
-  m_SizeDelta: {x: 700, y: 180}
+  m_AnchoredPosition: {x: 0, y: 120}
+  m_SizeDelta: {x: 600, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1256234322
 MonoBehaviour:
@@ -35238,7 +35238,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1319318429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35381,7 +35381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd7f6c4fade823f49832c28faa95d476, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoosterZone
-  boostDirection: {x: 3, y: 0, z: 0}
+  boostDirection: {x: 2.2, y: 0, z: 0}
   boostForce: 700
   glowColor: {r: 0, g: 1, b: 1, a: 1}
   pulseSpeed: 2
@@ -35472,7 +35472,7 @@ Transform:
   m_GameObject: {fileID: 1328198499}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7, y: -5.5, z: 0}
+  m_LocalPosition: {x: -8, y: -5, z: 0}
   m_LocalScale: {x: 2, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -35515,8 +35515,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 80}
-  m_SizeDelta: {x: 700, y: 300}
+  m_AnchoredPosition: {x: 0, y: -20}
+  m_SizeDelta: {x: 700, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1329775622
 MonoBehaviour:
@@ -35841,8 +35841,8 @@ MonoBehaviour:
   maxCollisions: 5
   currentScore: 0
   collisionCount: 0
-  deathZoneY: -8
-  deathZoneTop: 8
+  deathZoneY: -7
+  deathZoneTop: 7
   deathZoneLeft: -60
   deathZoneRight: 60
   scoreText: {fileID: 0}
@@ -36153,8 +36153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -15}
-  m_SizeDelta: {x: 600, y: 40}
+  m_AnchoredPosition: {x: 0, y: -10}
+  m_SizeDelta: {x: 500, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1416207763
 MonoBehaviour:
@@ -36203,8 +36203,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -36360,7 +36360,7 @@ Transform:
   m_GameObject: {fileID: 1457205523}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25, y: -5.5, z: 0}
+  m_LocalPosition: {x: 25, y: -4, z: 0}
   m_LocalScale: {x: 8, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -37591,7 +37591,7 @@ Transform:
   m_GameObject: {fileID: 1859087622}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20, y: 0, z: 0}
+  m_LocalPosition: {x: -25, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43180,8 +43180,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d349e6f5ebdbe17449f91ae57759d935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelConfig
-  deathZoneY: -8
-  deathZoneTop: 8
+  deathZoneY: -7
+  deathZoneTop: 7
   deathZoneLeft: -60
   deathZoneRight: 60
 --- !u!4 &2080632354

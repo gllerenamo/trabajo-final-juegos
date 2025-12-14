@@ -1,7 +1,4 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UIElements;
-using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 public class ObstacleFormation : MonoBehaviour
 {
@@ -50,7 +47,6 @@ public class ObstacleFormation : MonoBehaviour
 
     void Update()
     {
-        // Rotar toda la formación
         float direction = clockwise ? -1f : 1f;
         transform.Rotate(Vector3.forward * rotationSpeed * direction * Time.deltaTime);
     }
